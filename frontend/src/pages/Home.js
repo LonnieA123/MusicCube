@@ -1,4 +1,6 @@
 import {useEffect, useState} from "react";
+
+//COMPONENTS
 import AlbumDetails from "../components/AlbumDetails";
 
 const Home = () => {
