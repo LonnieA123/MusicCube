@@ -11,7 +11,7 @@ const albumSchema = new Schema({
                 type: String,
                 required: true,
             },
-            //fields will be added later
+            // fields will be added later
             // release_date: Date,
             // genre: [String],
             // tracks: [
