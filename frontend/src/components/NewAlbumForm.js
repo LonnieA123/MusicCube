@@ -9,6 +9,12 @@ const NewAlbumForm = () => {
     return(
         <form className="create">
             <h3>Add new Workout</h3>
+            <label>Album Name:</label>
+            <input
+                type="text"
+                onChange={(e) => setTitle(e.target.value)}
+                value={title}
+            />
         </form>
     )
 }
