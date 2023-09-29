@@ -7,6 +7,8 @@ const NewAlbumForm = () => {
 
 
     return(
-        <div></div>
+        <form className="create">
+            <h3>Add new Workout</h3>
+        </form>
     )
 }
